@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler 
 
-application=Flask(__name__)
+application = Flask(__name__)
 app=application
 ##Import ridge resgresor model and standard pickle
 
@@ -40,6 +40,6 @@ def predict_datapoint():
         return render_template('home.html')
 
 if __name__ == "__main__":
-     app.run(host="0.0.0.0", port=5000)
+     app.run(host="0.0.0.0")
 
     
