@@ -44,7 +44,7 @@ The best-performing model (**Ridge Regression**) achieved an **R² score of 98%*
 
 **Deployment:**
 - AWS Elastic Beanstalk
-- AWS CodePipeline (CI/CD)
+- AWS CodePipeline
 - GitHub Oauth App
 
 ---
